@@ -13,3 +13,9 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     namespace: cart
+  syncPolicy:
+    automated:
+      enabled: true
+      prune: true
+      allowEmpty: true
+      selfHeal: true
