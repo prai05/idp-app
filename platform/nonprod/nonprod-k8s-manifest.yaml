@@ -15,7 +15,6 @@ spec:
     namespace: cart
   syncPolicy: 
     automated:
-      enabled: true
       prune: true
       allowEmpty: true
       selfHeal: true
